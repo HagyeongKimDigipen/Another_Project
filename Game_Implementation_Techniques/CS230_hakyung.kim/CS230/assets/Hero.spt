@@ -1,0 +1,19 @@
+assets/Hero_SpriteSheet.png
+FrameSize 128 128
+HotSpot 64 15
+Frame 0 0
+Frame 128 0
+Frame 256 0 
+Frame 384 0
+Frame 512 0
+Frame 0 128 
+Frame 128 128 
+Frame 256 128 
+Frame 384 128 
+Frame 512 128
+Anim assets/Hero_Idle.anm
+Anim assets/Hero_Run.anm
+Anim assets/Hero_Jump.anm
+Anim assets/Hero_Fall.anm
+Anim assets/Hero_Skid.anm
+CollisionRect -31 0 36 64

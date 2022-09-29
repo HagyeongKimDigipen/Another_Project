@@ -1,0 +1,10 @@
+assets/flame.png
+FrameSize 16 16
+HotSpot 8 16
+Frame 0 0
+Frame 16 0
+Frame 32 0
+Frame 48 0
+Frame 64 0
+Anim assets/none.anm
+Anim assets/flame.anm

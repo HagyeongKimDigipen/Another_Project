@@ -1,0 +1,10 @@
+assets/Meteor.png
+HotSpot 71 69
+FrameSize 142 139
+Frame 0 0 
+Frame 142 0 
+Frame 284 0 
+Frame 426 0 
+CollisionCircle 66 
+Anim assets/none.anm
+Anim assets/meteorfade.anm
