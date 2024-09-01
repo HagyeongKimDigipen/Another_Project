@@ -1,0 +1,1127 @@
+TimeInterval,Function,HitCount,Percentage,Time(ms),Time/Hit
+0,NtUserMsgWaitForMultipleObjectsEx,206,0.103,17.7044,0.0859437
+0,NtQueryInformationThread,55,0.0275,3.2725,0.0595
+0,ZwWaitForSingleObject,35,0.0175,3.0259,0.0864543
+0,operator<,14,0.007,0.8675,0.0619643
+0,b2Vec2::b2Vec2,11,0.0055,0.7057,0.0641545
+0,b2ParticleSystem::AddContact,11,0.0055,0.9763,0.0887545
+0,operator-,10,0.005,0.6221,0.06221
+0,std::less<void>::operator()<b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &>,10,0.005,0.6464,0.06464
+0,NtUserGetMessage,8,0.004,0.5993,0.0749125
+0,b2Dot,8,0.004,0.417,0.052125
+0,b2InvSqrt,7,0.0035,0.3682,0.0526
+0,b2ParticleSystem::SolveDamping,6,0.003,0.3173,0.0528833
+0,b2Vec2::operator+=,5,0.0025,0.342,0.0684
+0,b2ParticleContact::GetIndexB,5,0.0025,0.3588,0.07176
+0,b2ParticleContact::SetNormal,4,0.002,0.2252,0.0563
+0,b2ParticleContact::GetWeight,4,0.002,0.2181,0.054525
+0,NtUserPeekMessage,4,0.002,0.3086,0.07715
+0,_RTC_CheckStackVars,4,0.002,0.3392,0.0848
+0,NtUserSetCursor,4,0.002,0.2611,0.065275
+0,b2ParticleSystem::FindContacts_Reference,4,0.002,0.2229,0.055725
+0,std::_Debug_lt_pred<std::less<void> &b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &0>,3,0.0015,0.2104,0.0701333
+0,b2ParticleSystem::SolvePressure,3,0.0015,0.159,0.053
+0,std::swap<b2ParticleSystem::Proxy0>,3,0.0015,0.2152,0.0717333
+0,std::move<b2ParticleSystem::Proxy &>,3,0.0015,0.1234,0.0411333
+0,operator*,3,0.0015,0.1517,0.0505667
+0,b2GrowableBuffer<b2ParticleContact>::operator[],2,0.001,0.0913,0.04565
+0,b2ParticleContact::SetWeight,2,0.001,0.1163,0.05815
+0,b2ParticleSystem::UpdateProxies_Reference,2,0.001,0.0709,0.03545
+0,`b2ParticleSystem::SolveCollision'::`2'::SolveCollisionCallback::ReportFixtureAndParticle,2,0.001,0.0788,0.0394
+0,b2ParticleContact::GetIndexA,2,0.001,0.0919,0.04595
+0,NtUserFindExistingCursorIcon,2,0.001,0.1325,0.06625
+0,computeTag,2,0.001,0.1328,0.0664
+0,b2Min<float>,2,0.001,0.0829,0.04145
+0,b2ParticleSystem::ComputeWeight,2,0.001,0.1356,0.0678
+0,b2ParticleSystem::SolveCollision,2,0.001,0.0815,0.04075
+0,b2ParticleSystem::InsideBoundsEnumerator::GetNext,1,0.0005,0.0402,0.0402
+0,ILT+8845(??Yb2Vec2QEAAXAEBU0Z),1,0.0005,0.0713,0.0713
+0,NtUserDestroyCursor,1,0.0005,0.0668,0.0668
+0,ILT+2970(?StepWaveMachineUEAAXPEAUSettingsZ),1,0.0005,0.0362,0.0362
+0,RtlQueryPerformanceCounter,1,0.0005,0.0348,0.0348
+0,NtUserCreateEmptyCursorObject,1,0.0005,0.0573,0.0573
+0,strlen,1,0.0005,0.0566,0.0566
+0,b2ParticleContact::SetFlags,1,0.0005,0.0306,0.0306
+0,computeRelativeTag,1,0.0005,0.0679,0.0679
+0,b2Vec2::Set,1,0.0005,0.0713,0.0713
+0,b2Vec2::operator-=,1,0.0005,0.0316,0.0316
+0,b2Vec2::LengthSquared,1,0.0005,0.0486,0.0486
+0,WaveMachine::Step,1,0.0005,0.0368,0.0368
+0,NtDelayExecution,1,0.0005,0.0617,0.0617
+0,`b2ParticleSystem::UpdateBodyContacts'::`2'::UpdateBodyContactsCallback::ReportFixtureAndParticle,1,0.0005,0.0767,0.0767
+0,b2GrowableBuffer<b2ParticleContact>::GetCount,1,0.0005,0.0809,0.0809
+0,b2Max<float>,1,0.0005,0.0715,0.0715
+0,ILT+17060(?GetCount?$b2GrowableBufferUb2ParticleContactQEBAHXZ),1,0.0005,0.0723,0.0723
+0,std::_Prev_iter<b2ParticleSystem::Proxy *>,1,0.0005,0.0617,0.0617
+0,NtUserGetIconInfo,1,0.0005,0.0444,0.0444
+0,NtUserSetClassLongPtr,1,0.0005,0.1027,0.1027
+0,b2ParticleSystem::ComputeAABB,1,0.0005,0.0738,0.0738
+1,NtUserMsgWaitForMultipleObjectsEx,151,0.0755,11.799,0.0781391
+1,NtUserMessageCall,102,0.051,9.3638,0.091802
+1,b2ParticleSystem::AddContact,16,0.008,1.0914,0.0682125
+1,b2Vec2::b2Vec2,14,0.007,0.9403,0.0671643
+1,NtUserGetMessage,9,0.0045,0.7338,0.0815333
+1,b2PolygonShape::ComputeDistance,9,0.0045,0.4971,0.0552333
+1,b2InvSqrt,9,0.0045,0.5387,0.0598556
+1,operator-,9,0.0045,0.4694,0.0521556
+1,operator<,9,0.0045,0.5201,0.0577889
+1,b2Dot,8,0.004,0.3864,0.0483
+1,operator*,8,0.004,0.7572,0.09465
+1,_RTC_CheckStackVars,7,0.0035,0.3736,0.0533714
+1,`b2ParticleSystem::SolveCollision'::`2'::SolveCollisionCallback::ReportFixtureAndParticle,7,0.0035,0.3589,0.0512714
+1,b2Min<float>,6,0.003,0.3402,0.0567
+1,NtUserGetKeyState,6,0.003,0.4849,0.0808167
+1,b2ParticleSystem::InsideBoundsEnumerator::GetNext,6,0.003,0.3361,0.0560167
+1,b2ParticleSystem::SolvePressure,5,0.0025,0.2201,0.04402
+1,b2ParticleContact::GetWeight,5,0.0025,0.2636,0.05272
+1,NtQueryInformationThread,5,0.0025,0.3128,0.06256
+1,b2PolygonShape::RayCast,5,0.0025,0.3435,0.0687
+1,b2ParticleSystem::SolveDamping,5,0.0025,0.4089,0.08178
+1,b2ParticleSystem::ComputeAABB,4,0.002,0.1938,0.04845
+1,std::less<void>::operator()<b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &>,4,0.002,0.2343,0.058575
+1,std::_Debug_lt_pred<std::less<void> &b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &0>,4,0.002,0.2218,0.05545
+1,b2ParticleSystem::UpdateProxies_Reference,4,0.002,0.2691,0.067275
+1,b2Vec2::operator-=,3,0.0015,0.2232,0.0744
+1,NtUserFindExistingCursorIcon,3,0.0015,0.2143,0.0714333
+1,computeTag,3,0.0015,0.204,0.068
+1,b2Vec2::Normalize,3,0.0015,0.1432,0.0477333
+1,b2ParticleSystem::SolveCollision,3,0.0015,0.1095,0.0365
+1,b2ParticleSystem::FindContacts_Reference,3,0.0015,0.1574,0.0524667
+1,b2Max<float>,3,0.0015,0.2314,0.0771333
+1,NtUserPeekMessage,3,0.0015,0.1739,0.0579667
+1,NtUserGetDC,3,0.0015,0.1625,0.0541667
+1,b2Mul,2,0.001,0.1,0.05
+1,b2ParticleContact::SetIndices,2,0.001,0.1584,0.0792
+1,std::move<b2ParticleSystem::Proxy &>,2,0.001,0.0996,0.0498
+1,b2MulT,2,0.001,0.1165,0.05825
+1,NtUserSetCursor,2,0.001,0.1757,0.08785
+1,b2ParticleContact::GetIndexA,2,0.001,0.1294,0.0647
+1,b2ParticleContact::SetWeight,2,0.001,0.4009,0.20045
+1,NtUserWindowFromDC,2,0.001,0.1249,0.06245
+1,ILT+12485(??0b2Vec2QEAAMMZ),2,0.001,0.1609,0.08045
+1,b2ParticleContact::SetNormal,2,0.001,0.1007,0.05035
+1,b2ParticleContact::GetNormal,1,0.0005,0.0458,0.0458
+1,NtGdiGetDCDword,1,0.0005,0.0353,0.0353
+1,fgPlatformWindowProc,1,0.0005,0.1168,0.1168
+1,std::_Insertion_sort_unchecked<b2ParticleSystem::Proxy *std::less<void> >,1,0.0005,0.0633,0.0633
+1,b2Max,1,0.0005,0.0795,0.0795
+1,NtUserUpdateWindow,1,0.0005,0.1293,0.1293
+1,GLUI_Main::find_control,1,0.0005,0.0548,0.0548
+1,ZwWaitForSingleObject,1,0.0005,0.0907,0.0907
+1,b2Vec2::LengthSquared,1,0.0005,0.0702,0.0702
+1,RtlVirtualUnwind,1,0.0005,0.088,0.088
+1,b2ParticleSystem::LimitVelocity,1,0.0005,0.0651,0.0651
+1,operator+,1,0.0005,0.0749,0.0749
+1,glFinish,1,0.0005,0.0639,0.0639
+1,timeGetTime,1,0.0005,0.0478,0.0478
+1,std::swap<b2ParticleSystem::Proxy0>,1,0.0005,0.0333,0.0333
+1,std::_Prev_iter<b2ParticleSystem::Proxy *>,1,0.0005,0.1009,0.1009
+1,std::lower_bound<b2ParticleSystem::Proxy const *unsigned int>,1,0.0005,0.0704,0.0704
+1,NtUserSetClassLongPtr,1,0.0005,0.0534,0.0534
+1,b2ParticleSystem::DetectStuckParticle,1,0.0005,0.0538,0.0538
+1,b2Min,1,0.0005,0.034,0.034
+1,b2Fixture::ComputeDistance,1,0.0005,0.0683,0.0683
+1,ZwOpenKeyEx,1,0.0005,0.0819,0.0819
+1,ILT+19060(??DYA?AUb2Vec2MAEBU0Z),1,0.0005,0.0535,0.0535
+1,`b2ParticleSystem::UpdateBodyContacts'::`2'::UpdateBodyContactsCallback::ReportFixtureAndParticle,1,0.0005,0.0783,0.0783
+1,b2ParticleSystem::ComputeWeight,1,0.0005,0.063,0.063
+1,ILT+17060(?GetCount?$b2GrowableBufferUb2ParticleContactQEBAHXZ),1,0.0005,0.092,0.092
+1,computeRelativeTag,1,0.0005,0.0551,0.0551
+1,b2ParticleContact::GetIndexB,1,0.0005,0.0674,0.0674
+1,LdrRscIsTypeExist,1,0.0005,0.0755,0.0755
+1,std::_Partition_by_median_guess_unchecked<b2ParticleSystem::Proxy *std::less<void> >,1,0.0005,0.0324,0.0324
+1,RtlDelayExecution,1,0.0005,0.0841,0.0841
+2,NtUserMessageCall,152,0.076,12.5009,0.0822428
+2,NtUserMsgWaitForMultipleObjectsEx,140,0.07,9.4946,0.0678186
+2,NtQueryInformationThread,19,0.0095,1.1004,0.0579158
+2,b2ParticleSystem::AddContact,12,0.006,0.6917,0.0576417
+2,b2InvSqrt,11,0.0055,0.5516,0.0501455
+2,NtUserGetKeyState,10,0.005,0.8133,0.08133
+2,NtUserGetMessage,10,0.005,0.7461,0.07461
+2,b2Dot,8,0.004,0.4025,0.0503125
+2,b2PolygonShape::ComputeDistance,7,0.0035,0.3615,0.0516429
+2,operator*,7,0.0035,0.3905,0.0557857
+2,operator<,7,0.0035,0.4257,0.0608143
+2,operator-,6,0.003,0.3141,0.05235
+2,b2ParticleSystem::SolvePressure,5,0.0025,0.2983,0.05966
+2,std::_Debug_lt_pred<std::less<void> &b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &0>,5,0.0025,0.2348,0.04696
+2,b2Vec2::b2Vec2,5,0.0025,0.3737,0.07474
+2,NtUserGetDC,4,0.002,0.206,0.0515
+2,b2ParticleSystem::InsideBoundsEnumerator::GetNext,4,0.002,0.1652,0.0413
+2,`b2ParticleSystem::SolveCollision'::`2'::SolveCollisionCallback::ReportFixtureAndParticle,4,0.002,0.2126,0.05315
+2,b2ParticleContact::SetNormal,3,0.0015,0.1826,0.0608667
+2,b2Vec2::operator-=,3,0.0015,0.2076,0.0692
+2,_RTC_CheckStackVars,3,0.0015,0.1442,0.0480667
+2,b2Min<float>,3,0.0015,0.1486,0.0495333
+2,b2Max<float>,3,0.0015,0.1672,0.0557333
+2,b2ParticleSystem::ComputeAABB,3,0.0015,0.2036,0.0678667
+2,`b2ParticleSystem::UpdateBodyContacts'::`2'::UpdateBodyContactsCallback::ReportFixtureAndParticle,3,0.0015,0.2071,0.0690333
+2,NtUserPeekMessage,3,0.0015,0.2262,0.0754
+2,b2Vec2::Normalize,3,0.0015,0.2431,0.0810333
+2,b2Vec2::Length,3,0.0015,0.1955,0.0651667
+2,std::_Partition_by_median_guess_unchecked<b2ParticleSystem::Proxy *std::less<void> >,2,0.001,0.1382,0.0691
+2,b2ParticleSystem::FindContacts_Reference,2,0.001,0.0808,0.0404
+2,NtUserSetWindowPos,2,0.001,0.1471,0.07355
+2,ZwWaitForSingleObject,2,0.001,0.1469,0.07345
+2,NtGdiGetDCDword,2,0.001,0.1045,0.05225
+2,b2ParticleContact::SetWeight,2,0.001,0.2988,0.1494
+2,b2MulT,2,0.001,0.1423,0.07115
+2,b2ParticleContact::GetWeight,2,0.001,0.1086,0.0543
+2,NtUserWindowFromDC,2,0.001,0.1319,0.06595
+2,b2Vec2::operator+=,2,0.001,0.1468,0.0734
+2,b2ParticleSystem::ComputeWeight,2,0.001,0.1212,0.0606
+2,b2GrowableBuffer<b2ParticleContact>::GetCount,2,0.001,0.1356,0.0678
+2,b2ParticleSystem::UpdateProxies_Reference,2,0.001,0.1173,0.05865
+2,b2PolygonShape::RayCast,1,0.0005,0.0457,0.0457
+2,glutSetWindow,1,0.0005,0.0659,0.0659
+2,b2Mul,1,0.0005,0.0743,0.0743
+2,NtAssociateWaitCompletionPacket,1,0.0005,0.0475,0.0475
+2,std::_Insertion_sort_unchecked<b2ParticleSystem::Proxy *std::less<void> >,1,0.0005,0.0581,0.0581
+2,std::_Guess_median_unchecked<b2ParticleSystem::Proxy *std::less<void> >,1,0.0005,0.0361,0.0361
+2,_CxxUnregisterExceptionObject,1,0.0005,0.0896,0.0896
+2,NtUserDestroyWindow,1,0.0005,0.0478,0.0478
+2,b2ParticleSystem::SolveCollision,1,0.0005,0.0716,0.0716
+2,NtUserSystemParametersInfo,1,0.0005,0.0716,0.0716
+2,NtGdiSelectBitmap,1,0.0005,0.06,0.06
+2,NtGdiExtGetObjectW,1,0.0005,0.0638,0.0638
+2,ILT+8845(??Yb2Vec2QEAAXAEBU0Z),1,0.0005,0.0428,0.0428
+2,std::move<b2ParticleSystem::Proxy &>,1,0.0005,0.0835,0.0835
+2,b2ParticleSystem::UpdateProxies,1,0.0005,0.0495,0.0495
+2,b2ParticleContact::GetNormal,1,0.0005,0.0866,0.0866
+2,ILT+17060(?GetCount?$b2GrowableBufferUb2ParticleContactQEBAHXZ),1,0.0005,0.0406,0.0406
+2,computeTag,1,0.0005,0.0304,0.0304
+2,`anonymous namespace'::FixedSetAllocator::~FixedSetAllocator,1,0.0005,0.0422,0.0422
+2,b2ParticleContact::SetIndices,1,0.0005,0.0694,0.0694
+2,b2Max,1,0.0005,0.0429,0.0429
+2,NtGdiGetTransform,1,0.0005,0.0749,0.0749
+2,b2Vec2::LengthSquared,1,0.0005,0.0514,0.0514
+2,ILT+6990(?ComputeDistanceb2PolygonShapeUEBAXAEBUb2TransformAEBUb2Vec2PEAMPEAU3HZ),1,0.0005,0.0449,0.0449
+2,ILT+12485(??0b2Vec2QEAAMMZ),1,0.0005,0.034,0.034
+2,NtUserFindExistingCursorIcon,1,0.0005,0.0662,0.0662
+3,NtUserMsgWaitForMultipleObjectsEx,197,0.0985,13.4132,0.0680873
+3,NtUserMessageCall,36,0.018,3.7007,0.102797
+3,NtQueryInformationThread,19,0.0095,1.2278,0.0646211
+3,operator-,15,0.0075,0.8206,0.0547067
+3,operator<,13,0.0065,0.7934,0.0610308
+3,b2ParticleSystem::SolvePressure,13,0.0065,0.7632,0.0587077
+3,b2ParticleSystem::SolveDamping,11,0.0055,0.6777,0.0616091
+3,b2Vec2::b2Vec2,11,0.0055,0.6127,0.0557
+3,b2ParticleSystem::AddContact,11,0.0055,0.874,0.0794545
+3,b2InvSqrt,10,0.005,0.5294,0.05294
+3,b2ParticleContact::GetWeight,10,0.005,0.5904,0.05904
+3,b2Min<float>,10,0.005,0.5364,0.05364
+3,NtUserGetMessage,8,0.004,0.5157,0.0644625
+3,operator*,8,0.004,0.4746,0.059325
+3,b2Dot,8,0.004,0.4188,0.05235
+3,b2ParticleContact::SetNormal,7,0.0035,0.5405,0.0772143
+3,_RTC_CheckStackVars,7,0.0035,0.3768,0.0538286
+3,b2PolygonShape::ComputeDistance,6,0.003,0.3919,0.0653167
+3,computeTag,6,0.003,0.5803,0.0967167
+3,b2Max,4,0.002,0.1841,0.046025
+3,b2ParticleSystem::InsideBoundsEnumerator::GetNext,4,0.002,0.2616,0.0654
+3,b2Max<float>,4,0.002,0.2581,0.064525
+3,NtUserFindExistingCursorIcon,4,0.002,0.3831,0.095775
+3,std::less<void>::operator()<b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &>,4,0.002,0.2549,0.063725
+3,NtUserSetCursor,4,0.002,0.3681,0.092025
+3,b2ParticleSystem::FindContacts_Reference,3,0.0015,0.1719,0.0573
+3,b2PolygonShape::RayCast,3,0.0015,0.148,0.0493333
+3,std::_Debug_lt_pred<std::less<void> &b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &0>,3,0.0015,0.1632,0.0544
+3,NtUserGetDC,3,0.0015,0.1393,0.0464333
+3,ZwWaitForSingleObject,2,0.001,0.1053,0.05265
+3,b2Vec2::operator+=,2,0.001,0.1307,0.06535
+3,b2ParticleSystem::UpdateProxies_Reference,2,0.001,0.2206,0.1103
+3,std::_Prev_iter<b2ParticleSystem::Proxy *>,2,0.001,0.0943,0.04715
+3,NtUserPeekMessage,2,0.001,0.1437,0.07185
+3,b2Vec2::LengthSquared,2,0.001,0.1139,0.05695
+3,b2MulT,2,0.001,0.0821,0.04105
+3,b2ParticleSystem::SolveCollision,2,0.001,0.0658,0.0329
+3,b2ParticleContact::SetWeight,2,0.001,0.0841,0.04205
+3,std::_Partition_by_median_guess_unchecked<b2ParticleSystem::Proxy *std::less<void> >,2,0.001,0.0889,0.04445
+3,NtUserSetWindowPos,2,0.001,0.1152,0.0576
+3,b2ContactManager::Collide,1,0.0005,0.0393,0.0393
+3,std::_Insertion_sort_unchecked<b2ParticleSystem::Proxy *std::less<void> >,1,0.0005,0.0884,0.0884
+3,FullscreenUI::GetEnabled,1,0.0005,0.0384,0.0384
+3,NtGdiGetDCDword,1,0.0005,0.0652,0.0652
+3,std::less<void>::operator()<unsigned int const &b2ParticleSystem::Proxy const &>,1,0.0005,0.0616,0.0616
+3,b2GrowableBuffer<b2ParticleContact>::operator[],1,0.0005,0.0614,0.0614
+3,b2Mul,1,0.0005,0.0348,0.0348
+3,b2ParticleSystem::ComputeWeight,1,0.0005,0.1439,0.1439
+3,b2Min,1,0.0005,0.0422,0.0422
+3,ILT+16680(_RTC_CheckStackVars),1,0.0005,0.0331,0.0331
+3,NtUserCalcMenuBar,1,0.0005,0.0651,0.0651
+3,Test::Step,1,0.0005,0.0391,0.0391
+3,NtGdiSetDIBitsToDeviceInternal,1,0.0005,0.0392,0.0392
+3,NtUserSetClassLongPtr,1,0.0005,0.0907,0.0907
+3,b2ParticleSystem::Solve,1,0.0005,0.0436,0.0436
+3,b2GrowableBuffer<b2ParticleSystem::Proxy>::Begin,1,0.0005,0.0917,0.0917
+3,NtUserCreateEmptyCursorObject,1,0.0005,0.076,0.076
+3,b2ParticleContact::GetNormal,1,0.0005,0.0772,0.0772
+3,computeRelativeTag,1,0.0005,0.0997,0.0997
+3,b2ParticleContact::GetIndexA,1,0.0005,0.2718,0.2718
+3,NtGdiSelectBitmap,1,0.0005,0.0717,0.0717
+3,__local_stdio_printf_options,1,0.0005,0.0492,0.0492
+3,ZwSetEvent,1,0.0005,0.0449,0.0449
+3,NtUserShowWindow,1,0.0005,0.0623,0.0623
+3,b2ParticleSystem::GetParticleInvMass,1,0.0005,0.0437,0.0437
+3,NtUserGetKeyState,1,0.0005,0.0434,0.0434
+3,`b2ParticleSystem::UpdateBodyContacts'::`2'::UpdateBodyContactsCallback::ReportFixtureAndParticle,1,0.0005,0.075,0.075
+3,b2MulT,1,0.0005,0.0595,0.0595
+3,b2Vec2::Normalize,1,0.0005,0.0699,0.0699
+3,operator+,1,0.0005,0.0334,0.0334
+3,`b2ParticleSystem::SolveCollision'::`2'::SolveCollisionCallback::ReportFixtureAndParticle,1,0.0005,0.0736,0.0736
+3,NtGdiCreateDIBitmapInternal,1,0.0005,0.0531,0.0531
+3,b2Vec2::operator-=,1,0.0005,0.1107,0.1107
+4,NtUserMsgWaitForMultipleObjectsEx,241,0.1205,23.7956,0.0987369
+4,NtUserGetMessage,44,0.022,5.7346,0.130332
+4,b2ParticleSystem::AddContact,20,0.01,1.7212,0.08606
+4,b2Vec2::b2Vec2,13,0.0065,0.7208,0.0554462
+4,b2InvSqrt,10,0.005,0.6741,0.06741
+4,operator-,10,0.005,0.7277,0.07277
+4,operator<,10,0.005,0.7293,0.07293
+4,computeTag,8,0.004,1.0387,0.129838
+4,b2ParticleSystem::UpdateProxies_Reference,8,0.004,0.7486,0.093575
+4,NtQueryInformationThread,8,0.004,0.5883,0.0735375
+4,operator*,8,0.004,0.6705,0.0838125
+4,sqrtf,7,0.0035,0.4264,0.0609143
+4,b2Min<float>,6,0.003,0.4903,0.0817167
+4,b2PolygonShape::ComputeDistance,6,0.003,0.5042,0.0840333
+4,b2ParticleSystem::InsideBoundsEnumerator::GetNext,6,0.003,0.328,0.0546667
+4,b2ParticleSystem::FindContacts_Reference,5,0.0025,0.4454,0.08908
+4,b2ParticleSystem::SolvePressure,5,0.0025,0.3838,0.07676
+4,std::less<void>::operator()<b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &>,5,0.0025,0.4585,0.0917
+4,b2ParticleContact::GetWeight,4,0.002,0.3151,0.078775
+4,b2ParticleContact::GetIndexB,4,0.002,0.2248,0.0562
+4,b2ParticleSystem::SolveDamping,4,0.002,0.3235,0.080875
+4,b2Dot,4,0.002,0.2717,0.067925
+4,std::_Debug_lt_pred<std::less<void> &b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &0>,3,0.0015,0.2883,0.0961
+4,b2ParticleSystem::ComputeAABB,3,0.0015,0.1858,0.0619333
+4,b2Vec2::operator+=,3,0.0015,0.1508,0.0502667
+4,b2Vec2::operator-=,3,0.0015,0.1597,0.0532333
+4,b2ParticleSystem::ComputeWeight,3,0.0015,0.2231,0.0743667
+4,_RTC_CheckStackVars,3,0.0015,0.1725,0.0575
+4,glClear,2,0.001,0.1173,0.05865
+4,NtUserFindExistingCursorIcon,2,0.001,0.2414,0.1207
+4,std::_Sort_unchecked<b2ParticleSystem::Proxy *std::less<void> >,2,0.001,0.2238,0.1119
+4,ILT+12485(??0b2Vec2QEAAMMZ),2,0.001,0.2028,0.1014
+4,NtUserSetClassLongPtr,2,0.001,0.135,0.0675
+4,b2GrowableBuffer<b2ParticleContact>::GetCount,2,0.001,0.101,0.0505
+4,b2ParticleContact::SetFlags,2,0.001,0.1265,0.06325
+4,b2Vec2::Normalize,2,0.001,0.1039,0.05195
+4,b2Max<float>,2,0.001,0.1112,0.0556
+4,RtlQueryPerformanceCounter,2,0.001,0.1104,0.0552
+4,LdrGetProcedureAddressForCaller,1,0.0005,0.1189,0.1189
+4,b2ParticleSystem::CreateParticlesFillShapeForGroup,1,0.0005,0.071,0.071
+4,std::advance<b2ParticleSystem::Proxy const *__int64>,1,0.0005,0.0537,0.0537
+4,b2Mul,1,0.0005,0.0481,0.0481
+4,PeekMessageA,1,0.0005,0.0318,0.0318
+4,b2Max,1,0.0005,0.076,0.076
+4,ILT+8845(??Yb2Vec2QEAAXAEBU0Z),1,0.0005,0.0477,0.0477
+4,b2ParticleContact::SetNormal,1,0.0005,0.0395,0.0395
+4,NtUserSetCursor,1,0.0005,0.074,0.074
+4,b2ParticleSystem::SolveCollision,1,0.0005,0.0603,0.0603
+4,b2ParticleSystem::SetStrictContactCheck,1,0.0005,0.0542,0.0542
+4,ZwSetEvent,1,0.0005,0.0816,0.0816
+4,ILT+17150(??GYA?AUb2Vec2AEBU0,1,0.0005,0.0599,0.0599
+4,WaveMachine::Step,1,0.0005,0.0528,0.0528
+4,timeGetTime,1,0.0005,0.0596,0.0596
+4,b2Min,1,0.0005,0.0412,0.0412
+4,b2Timer::b2Timer,1,0.0005,0.045,0.045
+4,`b2ParticleSystem::UpdateBodyContacts'::`2'::UpdateBodyContactsCallback::ReportFixtureAndParticle,1,0.0005,0.0757,0.0757
+4,operator+,1,0.0005,0.1779,0.1779
+4,b2ParticleContact::GetIndexA,1,0.0005,0.0537,0.0537
+4,NtUserPeekMessage,1,0.0005,0.0923,0.0923
+4,NtUserShowWindow,1,0.0005,0.067,0.067
+4,fgWindowByHandle,1,0.0005,0.0742,0.0742
+4,_chkstk,1,0.0005,0.074,0.074
+4,b2ParticleSystem::GetParticleInvMass,1,0.0005,0.0407,0.0407
+4,b2GrowableBuffer<b2ParticleSystem::Proxy>::Begin,1,0.0005,0.0539,0.0539
+4,ZwWaitForSingleObject,1,0.0005,0.0734,0.0734
+4,computeRelativeTag,1,0.0005,0.0578,0.0578
+4,b2Vec2::Length,1,0.0005,0.0596,0.0596
+5,NtUserMsgWaitForMultipleObjectsEx,238,0.119,25.7822,0.108329
+5,b2ParticleSystem::AddContact,22,0.011,2.1479,0.0976318
+5,operator-,18,0.009,1.3559,0.0753278
+5,operator<,17,0.0085,1.6926,0.0995647
+5,b2Vec2::b2Vec2,14,0.007,1.3819,0.0987071
+5,b2InvSqrt,13,0.0065,1.0795,0.0830385
+5,std::_Debug_lt_pred<std::less<void> &b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &0>,12,0.006,0.9668,0.0805667
+5,b2ParticleSystem::SolveDamping,11,0.0055,0.8664,0.0787636
+5,b2ParticleContact::SetNormal,9,0.0045,0.4454,0.0494889
+5,NtQueryInformationThread,9,0.0045,0.7889,0.0876556
+5,_RTC_CheckStackVars,8,0.004,0.587,0.073375
+5,b2ParticleSystem::SolvePressure,7,0.0035,0.5716,0.0816571
+5,b2ParticleContact::GetWeight,7,0.0035,0.4692,0.0670286
+5,b2Dot,6,0.003,0.4559,0.0759833
+5,b2Max<float>,6,0.003,0.5594,0.0932333
+5,operator*,5,0.0025,0.4608,0.09216
+5,b2ParticleSystem::UpdateProxies_Reference,5,0.0025,0.6451,0.12902
+5,b2ParticleSystem::InsideBoundsEnumerator::GetNext,5,0.0025,0.3906,0.07812
+5,b2Min<float>,5,0.0025,0.3293,0.06586
+5,b2ParticleSystem::SolveCollision,4,0.002,0.4289,0.107225
+5,b2ParticleSystem::ComputeAABB,4,0.002,0.2551,0.063775
+5,b2ParticleSystem::FindContacts_Reference,4,0.002,0.2939,0.073475
+5,computeTag,4,0.002,0.4526,0.11315
+5,std::less<void>::operator()<b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &>,4,0.002,0.4196,0.1049
+5,std::_Prev_iter<b2ParticleSystem::Proxy *>,3,0.0015,0.296,0.0986667
+5,b2Min,3,0.0015,0.2912,0.0970667
+5,NtUserGetDC,3,0.0015,0.3394,0.113133
+5,b2ParticleContact::GetIndexB,3,0.0015,0.2042,0.0680667
+5,b2ParticleContact::SetWeight,3,0.0015,0.2941,0.0980333
+5,b2GrowableBuffer<b2ParticleContact>::Append,2,0.001,0.2446,0.1223
+5,NtUserPeekMessage,2,0.001,0.1873,0.09365
+5,b2GrowableBuffer<b2ParticleContact>::GetCount,2,0.001,0.2359,0.11795
+5,b2EdgeShape::b2EdgeShape,2,0.001,0.07,0.035
+5,std::_Partition_by_median_guess_unchecked<b2ParticleSystem::Proxy *std::less<void> >,2,0.001,0.1531,0.07655
+5,NtUserSetCursor,2,0.001,0.1521,0.07605
+5,b2ChainShape::ComputeDistance,2,0.001,0.1363,0.06815
+5,b2ParticleSystem::Solve,2,0.001,0.3029,0.15145
+5,`b2ParticleSystem::SolveCollision'::`2'::SolveCollisionCallback::ReportFixtureAndParticle,2,0.001,0.1219,0.06095
+5,NtUserGetKeyState,2,0.001,0.2038,0.1019
+5,LdrRscIsTypeExist,2,0.001,0.1669,0.08345
+5,b2EdgeShape::ComputeDistance,2,0.001,0.1297,0.06485
+5,ILT+12485(??0b2Vec2QEAAMMZ),1,0.0005,0.0417,0.0417
+5,b2Vec2::LengthSquared,1,0.0005,0.0482,0.0482
+5,b2ParticleContact::SetIndices,1,0.0005,0.0864,0.0864
+5,NtUserWindowFromDC,1,0.0005,0.0441,0.0441
+5,operator<,1,0.0005,0.0818,0.0818
+5,computeRelativeTag,1,0.0005,0.0568,0.0568
+5,fgPlatformSleepForEvents,1,0.0005,0.0871,0.0871
+5,b2Vec2::operator+=,1,0.0005,0.0526,0.0526
+5,b2Vec2::Normalize,1,0.0005,0.0645,0.0645
+5,ILT+12460(??$?RAEAUProxyb2ParticleSystemAEAU01?$lessXstdQEBA_NAEAUProxyb2ParticleSystem,1,0.0005,0.0547,0.0547
+5,`b2ParticleSystem::UpdateBodyContacts'::`2'::UpdateBodyContactsCallback::ReportFixtureAndParticle,1,0.0005,0.0997,0.0997
+5,fgPlatformGlutGet,1,0.0005,0.0584,0.0584
+5,b2Vec2::Length,1,0.0005,0.094,0.094
+5,ILT+17130(?b2MaxYA?AUb2Vec2AEBU1,1,0.0005,0.0907,0.0907
+5,cgetws,1,0.0005,0.0614,0.0614
+5,b2ParticleSystem::LimitVelocity,1,0.0005,0.0337,0.0337
+5,ILT+1510(??$_Debug_lt_predAEAU?$lessXstdAEAUProxyb2ParticleSystemAEAU34$0AstdYA_NAEAU?$lessX,1,0.0005,0.092,0.092
+5,strcmp,1,0.0005,0.0891,0.0891
+5,ZwWaitForSingleObject,1,0.0005,0.1298,0.1298
+5,NtUserReleaseDC,1,0.0005,0.1124,0.1124
+5,std::_Sort_unchecked<b2ParticleSystem::Proxy *std::less<void> >,1,0.0005,0.1549,0.1549
+5,ILT+16680(_RTC_CheckStackVars),1,0.0005,0.1194,0.1194
+5,b2EdgeShape::RayCast,1,0.0005,0.0682,0.0682
+5,NtUserGetMessage,1,0.0005,0.0877,0.0877
+5,ILT+14610(??A?$b2GrowableBufferUb2ParticleContactQEAAAEAUb2ParticleContactHZ),1,0.0005,0.094,0.094
+5,b2ChainShape::GetChildEdge,1,0.0005,0.0346,0.0346
+5,LdrLoadDll,1,0.0005,0.1136,0.1136
+5,std::move<b2ParticleSystem::Proxy &>,1,0.0005,0.0832,0.0832
+6,NtUserMsgWaitForMultipleObjectsEx,214,0.107,18.9285,0.0884509
+6,b2Vec2::b2Vec2,27,0.0135,2.073,0.0767778
+6,b2InvSqrt,17,0.0085,1.0913,0.0641941
+6,b2ParticleSystem::AddContact,17,0.0085,1.4761,0.0868294
+6,NtQueryInformationThread,15,0.0075,1.2274,0.0818267
+6,b2ParticleSystem::InsideBoundsEnumerator::GetNext,10,0.005,0.6036,0.06036
+6,operator<,10,0.005,0.8323,0.08323
+6,_RTC_CheckStackVars,9,0.0045,0.737,0.0818889
+6,b2ParticleSystem::SolveDamping,9,0.0045,0.6186,0.0687333
+6,operator-,9,0.0045,0.7185,0.0798333
+6,b2Min<float>,8,0.004,0.5086,0.063575
+6,b2EdgeShape::RayCast,7,0.0035,0.5268,0.0752571
+6,b2ParticleSystem::FindContacts_Reference,6,0.003,0.4084,0.0680667
+6,b2Vec2::operator-=,5,0.0025,0.4148,0.08296
+6,sqrtf,5,0.0025,0.4029,0.08058
+6,b2ParticleSystem::SolveCollision,5,0.0025,0.3444,0.06888
+6,b2ParticleContact::SetNormal,4,0.002,0.2888,0.0722
+6,std::less<void>::operator()<b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &>,4,0.002,0.3074,0.07685
+6,operator*,4,0.002,0.4007,0.100175
+6,std::_Debug_lt_pred<std::less<void> &b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &0>,4,0.002,0.2926,0.07315
+6,b2ParticleContact::GetIndexB,3,0.0015,0.2428,0.0809333
+6,b2Dot,3,0.0015,0.2556,0.0852
+6,b2Vec2::operator+=,3,0.0015,0.2406,0.0802
+6,NtGdiGetDCDword,3,0.0015,0.2226,0.0742
+6,b2EdgeShape::ComputeDistance,3,0.0015,0.1754,0.0584667
+6,NtUserGetDC,3,0.0015,0.2834,0.0944667
+6,b2Max<float>,3,0.0015,0.184,0.0613333
+6,NtUserGetMessage,3,0.0015,0.2443,0.0814333
+6,b2ParticleSystem::SolvePressure,3,0.0015,0.1935,0.0645
+6,computeTag,3,0.0015,0.3164,0.105467
+6,b2ParticleContact::GetIndexA,3,0.0015,0.205,0.0683333
+6,`b2ParticleSystem::SolveCollision'::`2'::SolveCollisionCallback::ReportFixtureAndParticle,2,0.001,0.0876,0.0438
+6,b2ChainShape::ComputeDistance,2,0.001,0.1366,0.0683
+6,b2Vec2::Length,2,0.001,0.1532,0.0766
+6,b2ParticleSystem::UpdateProxies_Reference,2,0.001,0.1665,0.08325
+6,`b2ParticleSystem::UpdateBodyContacts'::`2'::UpdateBodyContactsCallback::ReportFixtureAndParticle,2,0.001,0.1573,0.07865
+6,ILT+16680(_RTC_CheckStackVars),2,0.001,0.2079,0.10395
+6,ZwWaitForSingleObject,2,0.001,0.1458,0.0729
+6,std::move<b2ParticleSystem::Proxy &>,2,0.001,0.1144,0.0572
+6,b2ParticleSystem::ComputeAABB,2,0.001,0.1582,0.0791
+6,NtUserSetClassLongPtr,2,0.001,0.175,0.0875
+6,b2ParticleSystem::ComputeWeight,2,0.001,0.1403,0.07015
+6,b2GrowableBuffer<b2ParticleContact>::Append,2,0.001,0.1638,0.0819
+6,NtUserSetWindowPos,2,0.001,0.158,0.079
+6,glutGetWindow,2,0.001,0.149,0.0745
+6,NtUserGetIconInfo,2,0.001,0.1981,0.09905
+6,std::less<void>::operator()<b2ParticleSystem::Proxy const &unsigned int const &>,1,0.0005,0.0483,0.0483
+6,IsWindow,1,0.0005,0.0598,0.0598
+6,ZwSetEvent,1,0.0005,0.0449,0.0449
+6,b2Vec2::b2Vec2,1,0.0005,0.0609,0.0609
+6,std::_Partition_by_median_guess_unchecked<b2ParticleSystem::Proxy *std::less<void> >,1,0.0005,0.0568,0.0568
+6,NtUserSetTimer,1,0.0005,0.0785,0.0785
+6,fghDisplayMenuBox,1,0.0005,0.0817,0.0817
+6,NtUserGetKeyState,1,0.0005,0.0666,0.0666
+6,b2ParticleContact::GetWeight,1,0.0005,0.1252,0.1252
+6,b2ChainShape::GetChildEdge,1,0.0005,0.1034,0.1034
+6,NtUserMessageCall,1,0.0005,0.0769,0.0769
+6,b2Mul,1,0.0005,0.0374,0.0374
+6,b2ParticleContact::SetWeight,1,0.0005,0.1324,0.1324
+6,RtlQueryPerformanceCounter,1,0.0005,0.0624,0.0624
+6,gluOrtho2D,1,0.0005,0.068,0.068
+6,b2ParticleSystem::Solve,1,0.0005,0.0974,0.0974
+6,operator<,1,0.0005,0.1003,0.1003
+6,ILT+4565(??0b2ShapeQEAAXZ),1,0.0005,0.0369,0.0369
+6,NtUserPeekMessage,1,0.0005,0.0476,0.0476
+6,b2Min,1,0.0005,0.0444,0.0444
+6,GetClientRect,1,0.0005,0.0977,0.0977
+6,std::_Prev_iter<b2ParticleSystem::Proxy *>,1,0.0005,0.0764,0.0764
+6,glutBitmapLength,1,0.0005,0.0687,0.0687
+6,computeRelativeTag,1,0.0005,0.0937,0.0937
+6,b2MulT,1,0.0005,0.068,0.068
+6,NtUserCreateWindowEx,1,0.0005,0.0626,0.0626
+6,NtUserFindExistingCursorIcon,1,0.0005,0.1403,0.1403
+6,b2Vec2::Normalize,1,0.0005,0.0929,0.0929
+6,b2ParticleSystem::SolveLifetimes,1,0.0005,0.0733,0.0733
+6,ILT+12485(??0b2Vec2QEAAMMZ),1,0.0005,0.0702,0.0702
+6,b2ChainShape::RayCast,1,0.0005,0.0552,0.0552
+6,NtDelayExecution,1,0.0005,0.0725,0.0725
+6,operator<,1,0.0005,0.0756,0.0756
+6,b2Fixture::ComputeDistance,1,0.0005,0.1053,0.1053
+6,b2MulT,1,0.0005,0.0562,0.0562
+6,NtUserReleaseDC,1,0.0005,0.0573,0.0573
+6,NtAlpcSendWaitReceivePort,1,0.0005,0.1014,0.1014
+6,std::_Adl_verify_range<b2ParticleSystem::Proxy *b2ParticleSystem::Proxy *>,1,0.0005,0.061,0.061
+6,std::_Insertion_sort_unchecked<b2ParticleSystem::Proxy *std::less<void> >,1,0.0005,0.1235,0.1235
+6,operator+,1,0.0005,0.0473,0.0473
+6,b2ParticleSystem::LimitVelocity,1,0.0005,0.0515,0.0515
+6,b2Vec2::operator-,1,0.0005,0.1043,0.1043
+6,RtlEnterCriticalSection,1,0.0005,0.0826,0.0826
+6,NtUserSetImeOwnerWindow,1,0.0005,0.0741,0.0741
+6,NtUserCreateEmptyCursorObject,1,0.0005,0.0597,0.0597
+6,fgEnumWindows,1,0.0005,0.0994,0.0994
+7,NtUserMsgWaitForMultipleObjectsEx,213,0.1065,17.0694,0.080138
+7,NtUserGetMessage,40,0.02,3.7352,0.09338
+7,b2ParticleSystem::AddContact,22,0.011,1.9964,0.0907455
+7,b2Vec2::b2Vec2,19,0.0095,1.1601,0.0610579
+7,b2InvSqrt,15,0.0075,1.1335,0.0755667
+7,operator<,13,0.0065,0.7773,0.0597923
+7,NtQueryInformationThread,11,0.0055,0.903,0.0820909
+7,b2ParticleSystem::InsideBoundsEnumerator::GetNext,10,0.005,0.5999,0.05999
+7,computeTag,9,0.0045,0.7953,0.0883667
+7,operator-,9,0.0045,0.6177,0.0686333
+7,NtUserPeekMessage,7,0.0035,0.6394,0.0913429
+7,std::_Debug_lt_pred<std::less<void> &b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &0>,7,0.0035,0.6129,0.0875571
+7,b2ParticleSystem::SolveDamping,7,0.0035,0.6634,0.0947714
+7,b2ParticleContact::GetWeight,6,0.003,0.3153,0.05255
+7,b2ParticleSystem::UpdateProxies_Reference,6,0.003,0.4379,0.0729833
+7,b2Dot,6,0.003,0.4158,0.0693
+7,`b2ParticleSystem::SolveCollision'::`2'::SolveCollisionCallback::ReportFixtureAndParticle,5,0.0025,0.3646,0.07292
+7,b2ParticleSystem::ComputeWeight,5,0.0025,0.3076,0.06152
+7,operator*,5,0.0025,0.3233,0.06466
+7,b2ParticleSystem::FindContacts_Reference,5,0.0025,0.3467,0.06934
+7,b2EdgeShape::ComputeDistance,4,0.002,0.2793,0.069825
+7,`b2ParticleSystem::UpdateBodyContacts'::`2'::UpdateBodyContactsCallback::ReportFixtureAndParticle,4,0.002,0.2473,0.061825
+7,std::less<void>::operator()<b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &>,4,0.002,0.2721,0.068025
+7,NtUserSetCursor,4,0.002,0.309,0.07725
+7,b2EdgeShape::RayCast,4,0.002,0.2834,0.07085
+7,_RTC_CheckStackVars,4,0.002,0.3121,0.078025
+7,std::_Insertion_sort_unchecked<b2ParticleSystem::Proxy *std::less<void> >,3,0.0015,0.2237,0.0745667
+7,b2ParticleSystem::SolveCollision,3,0.0015,0.2548,0.0849333
+7,b2ParticleContact::SetNormal,3,0.0015,0.2105,0.0701667
+7,sqrtf,3,0.0015,0.204,0.068
+7,b2Mul,3,0.0015,0.1658,0.0552667
+7,b2GrowableBuffer<b2ParticleContact>::Append,2,0.001,0.205,0.1025
+7,std::_Prev_iter<b2ParticleSystem::Proxy *>,2,0.001,0.1366,0.0683
+7,b2EdgeShape::b2EdgeShape,2,0.001,0.086,0.043
+7,b2Min<float>,2,0.001,0.1071,0.05355
+7,ZwWaitForSingleObject,2,0.001,0.2064,0.1032
+7,computeRelativeTag,1,0.0005,0.1055,0.1055
+7,b2Max<float>,1,0.0005,0.0701,0.0701
+7,b2ChainShape::RayCast,1,0.0005,0.0726,0.0726
+7,b2ParticleContact::GetIndexA,1,0.0005,0.0387,0.0387
+7,b2ChainShape::GetChildEdge,1,0.0005,0.0463,0.0463
+7,b2ParticleSystem::SolveGravity,1,0.0005,0.0449,0.0449
+7,b2ParticleSystem::SolvePressure,1,0.0005,0.0781,0.0781
+7,NtDelayExecution,1,0.0005,0.0759,0.0759
+7,operator+,1,0.0005,0.0382,0.0382
+7,b2MulT,1,0.0005,0.0534,0.0534
+7,fghRedrawWindow,1,0.0005,0.0781,0.0781
+7,b2Vec2::Set,1,0.0005,0.1255,0.1255
+7,b2Max,1,0.0005,0.0454,0.0454
+7,`b2ParticleSystem::SolveCollision'::`2'::SolveCollisionCallback::ShouldCollide,1,0.0005,0.0885,0.0885
+7,b2Vec2::operator-=,1,0.0005,0.1028,0.1028
+7,b2ParticleSystem::ComputeAABB,1,0.0005,0.0424,0.0424
+7,b2ParticleContact::GetIndexB,1,0.0005,0.0773,0.0773
+7,b2ParticleContact::SetWeight,1,0.0005,0.0673,0.0673
+7,b2ChainShape::ComputeDistance,1,0.0005,0.0337,0.0337
+7,b2ParticleSystem::GetInsideBoundsEnumerator,1,0.0005,0.0718,0.0718
+7,ILT+12040(??MYA_NAEBUProxyb2ParticleSystem,1,0.0005,0.0391,0.0391
+7,b2Vec2::operator+=,1,0.0005,0.0461,0.0461
+7,b2GrowableBuffer<b2ParticleContact>::operator[],1,0.0005,0.0907,0.0907
+7,std::_Next_iter<b2ParticleSystem::Proxy *>,1,0.0005,0.1292,0.1292
+7,b2Vec2::b2Vec2,1,0.0005,0.0543,0.0543
+7,NtUserFindExistingCursorIcon,1,0.0005,0.0647,0.0647
+7,b2GrowableBuffer<b2ParticleContact>::SetCount,1,0.0005,0.0834,0.0834
+7,b2Vec2::Normalize,1,0.0005,0.0343,0.0343
+7,b2ParticleContact::SetFlags,1,0.0005,0.1557,0.1557
+7,ILT+21685(?SetIndicesb2ParticleContactQEAAXHHZ),1,0.0005,0.0881,0.0881
+7,std::_Partition_by_median_guess_unchecked<b2ParticleSystem::Proxy *std::less<void> >,1,0.0005,0.0813,0.0813
+8,NtUserMsgWaitForMultipleObjectsEx,429,0.2145,61.8368,0.144142
+8,ZwWaitForSingleObject,20,0.01,2.3938,0.11969
+8,NtQueryInformationThread,15,0.0075,1.1524,0.0768267
+8,b2CollidePolygons,3,0.0015,0.3823,0.127433
+8,NtUserReleaseDC,2,0.001,0.213,0.1065
+8,b2Contact::Update,2,0.001,0.1872,0.0936
+8,NtUserSelectPalette,2,0.001,0.0968,0.0484
+8,NtUserCreateWindowEx,2,0.001,0.1572,0.0786
+8,b2Vec2::b2Vec2,2,0.001,0.2351,0.11755
+8,fabs,1,0.0005,0.0447,0.0447
+8,RtlQueryPerformanceCounter,1,0.0005,0.201,0.201
+8,b2ParticleSystem::InsideBoundsEnumerator::GetNext,1,0.0005,0.152,0.152
+8,std::swap<b2ParticleSystem::Proxy0>,1,0.0005,0.0529,0.0529
+8,std::forward<int &>,1,0.0005,0.1233,0.1233
+8,NtGdiGetDCDword,1,0.0005,0.0575,0.0575
+8,ILT+1525(??0b2Vec2QEAAXZ),1,0.0005,0.2241,0.2241
+8,glutBitmapCharacter,1,0.0005,0.0996,0.0996
+8,NtUserShowWindow,1,0.0005,0.1749,0.1749
+8,std::_Guess_median_unchecked<int *std::_Ref_fn<`anonymous namespace'::ExpirationTimeComparator> >,1,0.0005,0.1384,0.1384
+8,GLUI_Master_Object::get_viewport_area,1,0.0005,0.2455,0.2455
+8,NtUserMessageCall,1,0.0005,0.0529,0.0529
+8,NtDelayExecution,1,0.0005,0.0622,0.0622
+8,b2ContactManager::Collide,1,0.0005,0.2134,0.2134
+8,std::_Get_unwrapped<b2ParticleSystem::Proxy const * const &>,1,0.0005,0.1782,0.1782
+8,b2Vec2::operator-,1,0.0005,0.1743,0.1743
+8,RtlGetCurrentServiceSessionId,1,0.0005,0.0851,0.0851
+8,GetClientRect,1,0.0005,0.1216,0.1216
+8,fgPlatformSetWindow,1,0.0005,0.057,0.057
+8,b2QueryCallback::b2QueryCallback,1,0.0005,0.1577,0.1577
+8,NtUserCreateEmptyCursorObject,1,0.0005,0.0607,0.0607
+8,NtUserPeekMessage,1,0.0005,0.085,0.085
+8,NtQueryValueKey,1,0.0005,0.0699,0.0699
+8,NtQueryVirtualMemory,1,0.0005,0.0398,0.0398
+8,_RTC_CheckStackVars,1,0.0005,0.1215,0.1215
+8,b2ParticleSystem::UpdateContacts,1,0.0005,0.1286,0.1286
+8,NtUserGetDC,1,0.0005,0.1028,0.1028
+8,NtGdiDeleteObjectApp,1,0.0005,0.0556,0.0556
+8,NtGdiGetRandomRgn,1,0.0005,0.0501,0.0501
+8,glutBitmapString,1,0.0005,0.0527,0.0527
+8,std::_Lockit::_Lockit,1,0.0005,0.1469,0.1469
+8,NtUserSetCursorIconDataEx,1,0.0005,0.0556,0.0556
+8,NtUserGetKeyState,1,0.0005,0.054,0.054
+9,NtUserMsgWaitForMultipleObjectsEx,437,0.2185,62.3122,0.142591
+9,NtQueryInformationThread,10,0.005,0.7192,0.07192
+9,NtUserGetMessage,7,0.0035,0.525,0.075
+9,ZwWaitForSingleObject,6,0.003,0.4276,0.0712667
+9,NtUserSetCursor,4,0.002,0.3028,0.0757
+9,NtUserSetClassLongPtr,4,0.002,0.2938,0.07345
+9,b2Vec2::Normalize,3,0.0015,0.4344,0.1448
+9,NtUserPeekMessage,3,0.0015,0.1761,0.0587
+9,`anonymous namespace'::ExpirationTimeComparator::operator(),3,0.0015,0.3565,0.118833
+9,operator-,3,0.0015,0.3494,0.116467
+9,b2ParticleSystem::UpdateProxies_Reference,2,0.001,0.4352,0.2176
+9,std::_Partition_by_median_guess_unchecked<b2ParticleSystem::Proxy *std::less<void> >,2,0.001,0.3847,0.19235
+9,Sandbox::Step,2,0.001,0.1007,0.05035
+9,std::less<void>::operator()<b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &>,2,0.001,0.3215,0.16075
+9,b2FindMaxSeparation,1,0.0005,0.2466,0.2466
+9,b2Vec2::operator-,1,0.0005,0.0654,0.0654
+9,b2Max<int>,1,0.0005,0.1313,0.1313
+9,glutBitmapCharacter,1,0.0005,0.0589,0.0589
+9,std::move<b2ParticleSystem::Proxy &>,1,0.0005,0.1416,0.1416
+9,std::_Prev_iter<b2ParticleSystem::Proxy *>,1,0.0005,0.163,0.163
+9,NtGdiGetTransform,1,0.0005,0.0778,0.0778
+9,b2Fixture::GetShape,1,0.0005,0.1845,0.1845
+9,b2ParticleSystem::InsideBoundsEnumerator::InsideBoundsEnumerator,1,0.0005,0.1614,0.1614
+9,`vector constructor iterator',1,0.0005,0.1071,0.1071
+9,NtUserGetIconInfo,1,0.0005,0.0557,0.0557
+9,b2PrismaticJoint::SolveVelocityConstraints,1,0.0005,0.1688,0.1688
+9,b2World::SetAllowSleeping,1,0.0005,0.2231,0.2231
+9,b2CollidePolygons,1,0.0005,0.1661,0.1661
+9,b2MulT,1,0.0005,0.0872,0.0872
+9,std::_Pass_fn<std::less<void>0>,1,0.0005,0.0884,0.0884
+9,b2PolygonShape::RayCast,1,0.0005,0.1536,0.1536
+9,NtUserFindExistingCursorIcon,1,0.0005,0.0673,0.0673
+9,b2Min,1,0.0005,0.0674,0.0674
+9,std::_Insertion_sort_unchecked<int *std::_Ref_fn<`anonymous namespace'::ExpirationTimeComparator> >,1,0.0005,0.2069,0.2069
+9,b2Distance,1,0.0005,0.1347,0.1347
+9,b2PolygonShape::ComputeDistance,1,0.0005,0.172,0.172
+9,b2ClipSegmentToLine,1,0.0005,0.0946,0.0946
+9,glutBitmapString,1,0.0005,0.0559,0.0559
+9,ZwSetEvent,1,0.0005,0.0929,0.0929
+9,b2GrowableBuffer<b2ParticleContact>::operator[],1,0.0005,0.1759,0.1759
+9,b2Vec2::b2Vec2,1,0.0005,0.2355,0.2355
+9,std::_Insertion_sort_unchecked<b2ParticleSystem::Proxy *std::less<void> >,1,0.0005,0.1666,0.1666
+9,GetClientRect,1,0.0005,0.0905,0.0905
+9,operator<,1,0.0005,0.1025,0.1025
+9,b2Transform::b2Transform,1,0.0005,0.0513,0.0513
+10,NtUserMsgWaitForMultipleObjectsEx,428,0.214,60.2005,0.140655
+10,ZwWaitForSingleObject,12,0.006,1.0149,0.084575
+10,NtQueryInformationThread,9,0.0045,0.6956,0.0772889
+10,NtUserPeekMessage,5,0.0025,0.4794,0.09588
+10,NtUserSetClassLongPtr,5,0.0025,0.3403,0.06806
+10,`anonymous namespace'::ExpirationTimeComparator::operator(),3,0.0015,0.4359,0.1453
+10,b2Fixture::GetBody,3,0.0015,0.4416,0.1472
+10,operator<,3,0.0015,0.3468,0.1156
+10,b2Contact::GetFixtureA,3,0.0015,0.4667,0.155567
+10,b2FindMaxSeparation,3,0.0015,0.4519,0.150633
+10,NtUserSetCursor,3,0.0015,0.2719,0.0906333
+10,NtUserWindowFromDC,3,0.0015,0.2097,0.0699
+10,b2InvSqrt,2,0.001,0.2164,0.1082
+10,b2TestOverlap,2,0.001,0.2585,0.12925
+10,_RTC_CheckStackVars,2,0.001,0.22,0.11
+10,operator-,2,0.001,0.2036,0.1018
+10,NtUserFindExistingCursorIcon,2,0.001,0.1455,0.07275
+10,b2ParticleSystem::InsideBoundsEnumerator::GetNext,2,0.001,0.1667,0.08335
+10,NtUserGetMessage,2,0.001,0.1426,0.0713
+10,std::_Pass_fn<std::less<void>0>,1,0.0005,0.1097,0.1097
+10,std::_Debug_lt_pred<std::less<void> &b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &0>,1,0.0005,0.1094,0.1094
+10,sqrtf,1,0.0005,0.1501,0.1501
+10,b2FixtureParticleQueryCallback::ReportFixture,1,0.0005,0.1834,0.1834
+10,b2Contact::Update,1,0.0005,0.1434,0.1434
+10,b2ContactManager::Collide,1,0.0005,0.0746,0.0746
+10,Mtxlock,1,0.0005,0.0722,0.0722
+10,b2Max,1,0.0005,0.0742,0.0742
+10,std::_Get_unwrapped<b2ParticleSystem::Proxy * const &>,1,0.0005,0.2022,0.2022
+10,b2Vec2::Length,1,0.0005,0.0852,0.0852
+10,operator<,1,0.0005,0.0952,0.0952
+10,b2CollidePolygons,1,0.0005,0.1372,0.1372
+10,`b2ParticleSystem::UpdateBodyContacts'::`2'::UpdateBodyContactsCallback::ReportFixtureAndParticle,1,0.0005,0.1034,0.1034
+10,glClear,1,0.0005,0.1012,0.1012
+10,NtGdiGetDCDword,1,0.0005,0.0631,0.0631
+10,RtlFindCharInUnicodeString,1,0.0005,0.0345,0.0345
+10,b2Max<float>,1,0.0005,0.0681,0.0681
+10,operator<,1,0.0005,0.1552,0.1552
+10,std::sort<b2ParticleSystem::Proxy *std::less<void> >,1,0.0005,0.1727,0.1727
+10,b2Vec2::Set,1,0.0005,0.0325,0.0325
+10,b2GrowableStack<int256>::Pop,1,0.0005,0.0466,0.0466
+10,std::next<b2ParticleSystem::Proxy const *>,1,0.0005,0.0821,0.0821
+10,std::_Tree_unchecked_const_iterator<std::_Tree_val<std::_Tree_simple_types<b2ParticleHandle const *> >std::_Iterator_base12>::operator++,1,0.0005,0.0653,0.0653
+10,RtlFindActivationContextSectionString,1,0.0005,0.0337,0.0337
+10,operator+,1,0.0005,0.1407,0.1407
+10,b2Vec2::operator-,1,0.0005,0.0776,0.0776
+10,glutBitmapCharacter,1,0.0005,0.0819,0.0819
+10,fghCheckMenuStatus,1,0.0005,0.0556,0.0556
+10,b2Vec2::b2Vec2,1,0.0005,0.0593,0.0593
+10,b2GrowableStack<int256>::Push,1,0.0005,0.1112,0.1112
+11,NtUserMsgWaitForMultipleObjectsEx,431,0.2155,55.6973,0.129228
+11,ZwWaitForSingleObject,11,0.0055,0.5476,0.0497818
+11,NtQueryInformationThread,7,0.0035,0.4239,0.0605571
+11,std::_Debug_lt_pred<std::less<void> &b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &0>,5,0.0025,0.7972,0.15944
+11,NtUserGetMessage,4,0.002,0.3853,0.096325
+11,operator-,4,0.002,0.562,0.1405
+11,_RTC_CheckStackVars,4,0.002,0.337,0.08425
+11,NtUserSetClassLongPtr,4,0.002,0.3385,0.084625
+11,NtUserPeekMessage,3,0.0015,0.3168,0.1056
+11,operator<,3,0.0015,0.4525,0.150833
+11,`anonymous namespace'::ExpirationTimeComparator::operator(),2,0.001,0.3312,0.1656
+11,b2PolygonShape::RayCast,2,0.001,0.2224,0.1112
+11,b2ParticleSystem::ComputeAABB,2,0.001,0.2378,0.1189
+11,NtUserSetCursor,2,0.001,0.2136,0.1068
+11,b2Vec2::b2Vec2,2,0.001,0.208,0.104
+11,std::less<void>::operator()<b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &>,2,0.001,0.2873,0.14365
+11,RtlGetExtendedContextLength2,2,0.001,0.0722,0.0361
+11,b2Transform::b2Transform,1,0.0005,0.1483,0.1483
+11,std::_Prev_iter<b2ParticleSystem::Proxy *>,1,0.0005,0.0659,0.0659
+11,b2ParticleSystem::ComputeWeight,1,0.0005,0.0672,0.0672
+11,b2World::SetAllowSleeping,1,0.0005,0.1418,0.1418
+11,std::_Tree_unchecked_const_iterator<std::_Tree_val<std::_Tree_simple_types<b2ParticleHandle const *> >std::_Iterator_base12>::operator++,1,0.0005,0.0378,0.0378
+11,std::_Sort_unchecked<int *std::_Ref_fn<`anonymous namespace'::ExpirationTimeComparator> >,1,0.0005,0.1408,0.1408
+11,glClear,1,0.0005,0.0899,0.0899
+11,computeTag,1,0.0005,0.1471,0.1471
+11,b2Vec2::operator+=,1,0.0005,0.0759,0.0759
+11,std::_Ref_fn<`anonymous namespace'::ExpirationTimeComparator>::operator()<int &int &>,1,0.0005,0.1077,0.1077
+11,b2ParticleSystem::AddContact,1,0.0005,0.0708,0.0708
+11,b2ParticleSystem::InsideBoundsEnumerator::GetNext,1,0.0005,0.0869,0.0869
+11,computeRelativeTag,1,0.0005,0.1362,0.1362
+11,std::_Tree_val<std::_Tree_simple_types<b2ParticleHandle const *> >::_Min,1,0.0005,0.0661,0.0661
+11,b2Dot,1,0.0005,0.0633,0.0633
+11,SetEvent,1,0.0005,0.0721,0.0721
+11,TestMain::Resize,1,0.0005,0.0787,0.0787
+11,b2ParticleSystem::LifetimeToExpirationTime,1,0.0005,0.1442,0.1442
+11,std::_Prev_iter<int *>,1,0.0005,0.0999,0.0999
+11,SE_GetProcAddressForCaller,1,0.0005,0.0362,0.0362
+11,b2ParticleSystem::SolveDamping,1,0.0005,0.1267,0.1267
+11,b2World::Step,1,0.0005,0.0512,0.0512
+11,b2ParticleSystem::FindContacts_Reference,1,0.0005,0.085,0.085
+11,Sandbox::Step,1,0.0005,0.1628,0.1628
+11,ILT+8845(??Yb2Vec2QEAAXAEBU0Z),1,0.0005,0.1124,0.1124
+11,NtUserFindExistingCursorIcon,1,0.0005,0.09,0.09
+11,glPixelStorei,1,0.0005,0.0734,0.0734
+12,NtUserMsgWaitForMultipleObjectsEx,354,0.177,41.4053,0.116964
+12,NtUserGetMessage,23,0.0115,3.0544,0.1328
+12,b2ParticleSystem::AddContact,11,0.0055,0.841,0.0764545
+12,NtQueryInformationThread,11,0.0055,0.714,0.0649091
+12,std::less<void>::operator()<b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &>,9,0.0045,1.3865,0.154056
+12,b2ParticleSystem::SolvePressure,6,0.003,0.3933,0.06555
+12,b2ParticleSystem::SolveDamping,5,0.0025,0.3831,0.07662
+12,operator<,5,0.0025,0.4579,0.09158
+12,b2ParticleContact::GetIndexB,4,0.002,0.2583,0.064575
+12,b2InvSqrt,4,0.002,0.2659,0.066475
+12,b2ParticleContact::GetWeight,4,0.002,0.2818,0.07045
+12,b2ParticleSystem::FindContacts_Reference,4,0.002,0.2535,0.063375
+12,operator*,3,0.0015,0.2308,0.0769333
+12,operator-,3,0.0015,0.2119,0.0706333
+12,b2Vec2::operator+=,3,0.0015,0.2269,0.0756333
+12,std::_Debug_lt_pred<std::less<void> &b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &0>,3,0.0015,0.3283,0.109433
+12,`anonymous namespace'::ExpirationTimeComparator::operator(),2,0.001,0.4158,0.2079
+12,b2Dot,2,0.001,0.0809,0.04045
+12,computeRelativeTag,2,0.001,0.2144,0.1072
+12,GLUI_Master_Object::get_viewport_area,2,0.001,0.1764,0.0882
+12,b2Vec2::b2Vec2,2,0.001,0.1,0.05
+12,b2ParticleSystem::SolveCollision,2,0.001,0.1174,0.0587
+12,_RTC_CheckStackVars,2,0.001,0.1986,0.0993
+12,b2Vec2::b2Vec2,2,0.001,0.2356,0.1178
+12,b2ParticleContact::SetNormal,2,0.001,0.1572,0.0786
+12,std::swap<b2ParticleSystem::Proxy0>,2,0.001,0.2051,0.10255
+12,b2ParticleSystem::ComputeWeight,2,0.001,0.2279,0.11395
+12,b2Rot::b2Rot,2,0.001,0.1161,0.05805
+12,`b2ParticleSystem::UpdateBodyContacts'::`2'::UpdateBodyContactsCallback::ReportFixtureAndParticle,2,0.001,0.166,0.083
+12,b2ParticleSystem::InsideBoundsEnumerator::GetNext,2,0.001,0.1287,0.06435
+12,std::_Ref_fn<`anonymous namespace'::ExpirationTimeComparator>::operator()<int &int &>,2,0.001,0.3616,0.1808
+12,b2Max<float>,2,0.001,0.1178,0.0589
+12,b2Vec2::operator-=,1,0.0005,0.037,0.037
+12,b2ParticleSystem::UpdateProxies_Reference,1,0.0005,0.0811,0.0811
+12,std::move<b2ParticleSystem::Proxy &>,1,0.0005,0.1717,0.1717
+12,computeTag,1,0.0005,0.1145,0.1145
+12,std::_Adl_verify_range<b2ParticleSystem::Proxy *b2ParticleSystem::Proxy *>,1,0.0005,0.0561,0.0561
+12,std::_Next_iter<b2ParticleSystem::Proxy *>,1,0.0005,0.1785,0.1785
+12,b2MulT,1,0.0005,0.1034,0.1034
+12,b2Body::IsAwake,1,0.0005,0.1129,0.1129
+12,NtUserSetCursor,1,0.0005,0.0772,0.0772
+12,b2PolygonShape::ComputeDistance,1,0.0005,0.0746,0.0746
+12,b2ParticleSystem::SolveGravity,1,0.0005,0.081,0.081
+12,b2Shape::GetType,1,0.0005,0.0979,0.0979
+12,fgDestroyWindow,1,0.0005,0.0622,0.0622
+12,b2GrowableBuffer<b2ParticleContact>::GetCount,1,0.0005,0.1083,0.1083
+12,b2Min<float>,1,0.0005,0.0454,0.0454
+12,b2GrowableBuffer<b2ParticleSystem::Proxy>::End,1,0.0005,0.1468,0.1468
+12,std::_Partition_by_median_guess_unchecked<b2ParticleSystem::Proxy *std::less<void> >,1,0.0005,0.1439,0.1439
+12,o_memset,1,0.0005,0.0523,0.0523
+12,b2GrowableBuffer<b2ParticleContact>::operator[],1,0.0005,0.1282,0.1282
+12,LdrGetProcedureAddressForCaller,1,0.0005,0.0916,0.0916
+12,RtlInitAnsiString,1,0.0005,0.0731,0.0731
+12,sqrtf,1,0.0005,0.101,0.101
+12,b2DynamicTree::GetUserData,1,0.0005,0.0458,0.0458
+12,LdrRscIsTypeExist,1,0.0005,0.042,0.042
+12,b2Mul,1,0.0005,0.5172,0.5172
+12,b2ParticleSystem::GetInsideBoundsEnumerator,1,0.0005,0.0732,0.0732
+12,ILT+17060(?GetCount?$b2GrowableBufferUb2ParticleContactQEBAHXZ),1,0.0005,0.0776,0.0776
+12,b2DistanceProxy::b2DistanceProxy,1,0.0005,0.0792,0.0792
+12,b2Min,1,0.0005,0.0411,0.0411
+12,memset,1,0.0005,0.0961,0.0961
+12,ZwWaitForSingleObject,1,0.0005,0.0805,0.0805
+13,NtUserMsgWaitForMultipleObjectsEx,169,0.0845,16.4459,0.097313
+13,b2ParticleSystem::AddContact,28,0.014,2.152,0.0768571
+13,b2Vec2::b2Vec2,25,0.0125,2.0995,0.08398
+13,operator<,22,0.011,1.8094,0.0822455
+13,b2InvSqrt,17,0.0085,1.3574,0.0798471
+13,operator-,14,0.007,1.1033,0.0788071
+13,b2ParticleSystem::SolveDamping,14,0.007,0.9487,0.0677643
+13,b2Min<float>,10,0.005,0.6169,0.06169
+13,b2Dot,10,0.005,0.6733,0.06733
+13,b2ParticleSystem::SolvePressure,10,0.005,0.6886,0.06886
+13,_RTC_CheckStackVars,9,0.0045,0.7909,0.0878778
+13,NtQueryInformationThread,9,0.0045,1.0391,0.115456
+13,operator*,9,0.0045,0.5828,0.0647556
+13,std::_Debug_lt_pred<std::less<void> &b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &0>,9,0.0045,0.9183,0.102033
+13,std::less<void>::operator()<b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &>,8,0.004,0.6314,0.078925
+13,b2ParticleContact::SetNormal,8,0.004,0.7363,0.0920375
+13,b2Vec2::operator-=,5,0.0025,0.2472,0.04944
+13,b2ParticleSystem::FindContacts_Reference,5,0.0025,0.4864,0.09728
+13,b2ParticleSystem::SolveCollision,5,0.0025,0.2297,0.04594
+13,b2Vec2::operator+=,4,0.002,0.2424,0.0606
+13,b2ParticleContact::GetWeight,4,0.002,0.2837,0.070925
+13,b2Max<float>,4,0.002,0.2567,0.064175
+13,NtUserGetKeyState,4,0.002,0.3437,0.085925
+13,b2ParticleSystem::ComputeWeight,4,0.002,0.219,0.05475
+13,computeTag,4,0.002,0.4698,0.11745
+13,b2ParticleContact::GetIndexA,4,0.002,0.2479,0.061975
+13,`b2ParticleSystem::UpdateBodyContacts'::`2'::UpdateBodyContactsCallback::ReportFixtureAndParticle,3,0.0015,0.2086,0.0695333
+13,b2Max,3,0.0015,0.2266,0.0755333
+13,NtUserGetMessage,3,0.0015,0.2184,0.0728
+13,b2ParticleSystem::InsideBoundsEnumerator::GetNext,3,0.0015,0.1979,0.0659667
+13,b2ParticleSystem::UpdateProxies_Reference,3,0.0015,0.274,0.0913333
+13,b2ParticleContact::GetIndexB,3,0.0015,0.2476,0.0825333
+13,std::move<b2ParticleSystem::Proxy &>,3,0.0015,0.173,0.0576667
+13,std::_Insertion_sort_unchecked<b2ParticleSystem::Proxy *std::less<void> >,3,0.0015,0.1554,0.0518
+13,b2Min,3,0.0015,0.2319,0.0773
+13,std::_Partition_by_median_guess_unchecked<b2ParticleSystem::Proxy *std::less<void> >,2,0.001,0.1658,0.0829
+13,NtUserPeekMessage,2,0.001,0.2667,0.13335
+13,NtGdiGetDCDword,2,0.001,0.2387,0.11935
+13,b2ParticleContact::SetIndices,2,0.001,0.1109,0.05545
+13,b2PolygonShape::ComputeDistance,2,0.001,0.0864,0.0432
+13,`b2ParticleSystem::SolveCollision'::`2'::SolveCollisionCallback::ReportFixtureAndParticle,2,0.001,0.1776,0.0888
+13,b2EdgeShape::RayCast,2,0.001,0.1113,0.05565
+13,b2ParticleSystem::ComputeAABB,2,0.001,0.1768,0.0884
+13,b2ParticleSystem::LimitVelocity,2,0.001,0.1735,0.08675
+13,b2GrowableBuffer<b2ParticleContact>::operator[],2,0.001,0.1023,0.05115
+13,b2Vec2::Length,2,0.001,0.0717,0.03585
+13,ZwWaitForSingleObject,2,0.001,0.303,0.1515
+13,b2ParticleContact::GetNormal,1,0.0005,0.0654,0.0654
+13,b2ParticleContact::SetFlags,1,0.0005,0.0711,0.0711
+13,std::_Copy_backward_memmove<b2ParticleSystem::Proxy *b2ParticleSystem::Proxy *>,1,0.0005,0.0424,0.0424
+13,b2ParticleContact::SetWeight,1,0.0005,0.0703,0.0703
+13,ILT+4325(?GetNextb2ParticleSystemQEAAPEAV1XZ),1,0.0005,0.072,0.072
+13,b2EPCollider::ComputePolygonSeparation,1,0.0005,0.0896,0.0896
+13,NtUserWindowFromDC,1,0.0005,0.1147,0.1147
+13,std::swap<b2ParticleSystem::Proxy0>,1,0.0005,0.0764,0.0764
+13,operator+,1,0.0005,0.0639,0.0639
+13,b2EdgeAndPolygonContact::`scalar deleting destructor',1,0.0005,0.071,0.071
+13,ILT+16680(_RTC_CheckStackVars),1,0.0005,0.071,0.071
+13,GLUI_Master_Object::get_viewport_area,1,0.0005,0.0854,0.0854
+13,b2ParticleSystem::GetParticleInvMass,1,0.0005,0.0528,0.0528
+13,b2Fixture::GetBody,1,0.0005,0.0662,0.0662
+13,ILT+12460(??$?RAEAUProxyb2ParticleSystemAEAU01?$lessXstdQEBA_NAEAUProxyb2ParticleSystem,1,0.0005,0.0681,0.0681
+13,b2Contact::Update,1,0.0005,0.0971,0.0971
+13,std::next<b2ParticleSystem::Proxy const *>,1,0.0005,0.0717,0.0717
+13,b2FixtureParticleQueryCallback::b2FixtureParticleQueryCallback,1,0.0005,0.0748,0.0748
+13,`b2ParticleSystem::SolveCollision'::`2'::SolveCollisionCallback::ShouldCollide,1,0.0005,0.1027,0.1027
+13,std::_Seek_wrapped<b2ParticleSystem::Proxy const *b2ParticleSystem::Proxy const * &>,1,0.0005,0.1058,0.1058
+13,b2FixtureParticleQueryCallback::ReportFixture,1,0.0005,0.0895,0.0895
+13,glOrtho,1,0.0005,0.0476,0.0476
+13,ILT+2350(??$b2MinMYAMMMZ),1,0.0005,0.0331,0.0331
+13,b2EPCollider::Collide,1,0.0005,0.1075,0.1075
+13,cosf,1,0.0005,0.0338,0.0338
+13,Test::Step,1,0.0005,0.1397,0.1397
+13,std::iter_swap<b2ParticleSystem::Proxy *b2ParticleSystem::Proxy *>,1,0.0005,0.0967,0.0967
+13,b2ContactManager::Collide,1,0.0005,0.0947,0.0947
+13,computeRelativeTag,1,0.0005,0.0476,0.0476
+13,ILT+19060(??DYA?AUb2Vec2MAEBU0Z),1,0.0005,0.1184,0.1184
+13,RtlQueryPerformanceCounter,1,0.0005,0.0977,0.0977
+13,ILT+3605(?b2DotYAMAEBUb2Vec2,1,0.0005,0.0807,0.0807
+13,b2CircleShape::RayCast,1,0.0005,0.1115,0.1115
+13,b2PolygonShape::RayCast,1,0.0005,0.0848,0.0848
+13,LdrRscIsTypeExist,1,0.0005,0.0911,0.0911
+13,RtlInitAnsiString,1,0.0005,0.0945,0.0945
+14,NtUserMsgWaitForMultipleObjectsEx,180,0.09,17.6861,0.0982561
+14,operator<,22,0.011,2.065,0.0938636
+14,b2Vec2::b2Vec2,19,0.0095,1.2737,0.0670368
+14,b2InvSqrt,18,0.009,1.7219,0.0956611
+14,operator-,17,0.0085,1.3889,0.0817
+14,b2ParticleSystem::AddContact,16,0.008,1.1945,0.0746563
+14,NtQueryInformationThread,15,0.0075,1.1158,0.0743867
+14,b2ParticleContact::GetWeight,14,0.007,0.9449,0.0674929
+14,std::less<void>::operator()<b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &>,12,0.006,0.8716,0.0726333
+14,b2ParticleSystem::InsideBoundsEnumerator::GetNext,11,0.0055,0.8442,0.0767455
+14,b2ParticleSystem::SolveDamping,11,0.0055,0.7546,0.0686
+14,b2Min<float>,10,0.005,0.6957,0.06957
+14,operator*,9,0.0045,0.5717,0.0635222
+14,b2Dot,8,0.004,0.533,0.066625
+14,b2ParticleSystem::FindContacts_Reference,6,0.003,0.3544,0.0590667
+14,std::_Debug_lt_pred<std::less<void> &b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &0>,6,0.003,0.4383,0.07305
+14,b2Vec2::operator+=,6,0.003,0.4993,0.0832167
+14,b2Vec2::operator-=,5,0.0025,0.2824,0.05648
+14,b2ParticleContact::SetWeight,5,0.0025,0.2452,0.04904
+14,_RTC_CheckStackVars,5,0.0025,0.3898,0.07796
+14,computeTag,5,0.0025,0.4269,0.08538
+14,b2Max<float>,4,0.002,0.2758,0.06895
+14,std::_Prev_iter<b2ParticleSystem::Proxy *>,4,0.002,0.3041,0.076025
+14,b2ParticleSystem::SolvePressure,4,0.002,0.3016,0.0754
+14,NtUserGetKeyState,4,0.002,0.2993,0.074825
+14,b2ParticleSystem::ComputeWeight,4,0.002,0.2446,0.06115
+14,NtUserGetMessage,3,0.0015,0.3109,0.103633
+14,b2ParticleSystem::UpdateProxies_Reference,3,0.0015,0.3713,0.123767
+14,b2ParticleContact::SetNormal,3,0.0015,0.2409,0.0803
+14,b2ParticleSystem::SolveCollision,3,0.0015,0.1487,0.0495667
+14,NtUserWindowFromDC,3,0.0015,0.2499,0.0833
+14,`b2ParticleSystem::UpdateBodyContacts'::`2'::UpdateBodyContactsCallback::ReportFixtureAndParticle,3,0.0015,0.2383,0.0794333
+14,b2Min,3,0.0015,0.1881,0.0627
+14,b2ParticleSystem::ComputeAABB,3,0.0015,0.2618,0.0872667
+14,b2Contact::Update,2,0.001,0.2261,0.11305
+14,NtUserGetDC,2,0.001,0.29,0.145
+14,b2PolygonShape::ComputeDistance,2,0.001,0.2214,0.1107
+14,ILT+12040(??MYA_NAEBUProxyb2ParticleSystem,2,0.001,0.1022,0.0511
+14,std::_Insertion_sort_unchecked<b2ParticleSystem::Proxy *std::less<void> >,2,0.001,0.1336,0.0668
+14,b2ParticleContact::SetIndices,2,0.001,0.3517,0.17585
+14,ILT+12485(??0b2Vec2QEAAMMZ),2,0.001,0.1307,0.06535
+14,b2PolygonShape::RayCast,2,0.001,0.1358,0.0679
+14,b2ParticleContact::GetIndexB,2,0.001,0.183,0.0915
+14,b2ParticleSystem::Solve,2,0.001,0.1097,0.05485
+14,b2ParticleContact::GetIndexA,2,0.001,0.1412,0.0706
+14,b2ParticleContact::GetNormal,2,0.001,0.1743,0.08715
+14,b2ParticleSystem::LimitVelocity,1,0.0005,0.0326,0.0326
+14,b2EPCollider::Collide,1,0.0005,0.1472,0.1472
+14,std::_Partition_by_median_guess_unchecked<b2ParticleSystem::Proxy *std::less<void> >,1,0.0005,0.0655,0.0655
+14,b2Mul,1,0.0005,0.0334,0.0334
+14,b2ParticleContact::SetFlags,1,0.0005,0.0409,0.0409
+14,NtUserReleaseDC,1,0.0005,0.063,0.063
+14,sqrtf,1,0.0005,0.0894,0.0894
+14,b2Fixture::RayCast,1,0.0005,0.059,0.059
+14,std::move<b2ParticleSystem::Proxy &>,1,0.0005,0.155,0.155
+14,b2GrowableBuffer<b2ParticleContact>::GetCount,1,0.0005,0.0706,0.0706
+14,b2Body::IsAwake,1,0.0005,0.1374,0.1374
+14,SE_GetProcAddressForCaller,1,0.0005,0.0748,0.0748
+14,b2Body::GetTransform,1,0.0005,0.0696,0.0696
+14,b2Mul,1,0.0005,0.1417,0.1417
+14,b2GrowableBuffer<b2ParticleBodyContact>::operator[],1,0.0005,0.0511,0.0511
+14,ILT+17150(??GYA?AUb2Vec2AEBU0,1,0.0005,0.0541,0.0541
+14,b2Vec2::Length,1,0.0005,0.0558,0.0558
+14,b2EdgeAndPolygonContact::Evaluate,1,0.0005,0.0941,0.0941
+14,std::swap<b2ParticleSystem::Proxy0>,1,0.0005,0.0818,0.0818
+14,b2GrowableBuffer<b2ParticleContact>::operator[],1,0.0005,0.063,0.063
+14,ILT+3605(?b2DotYAMAEBUb2Vec2,1,0.0005,0.0498,0.0498
+14,b2Vec2::Normalize,1,0.0005,0.0382,0.0382
+14,std::forward<b2ParticleSystem::Proxy * &>,1,0.0005,0.0686,0.0686
+14,std::_Copy_backward_memmove<b2ParticleSystem::Proxy *b2ParticleSystem::Proxy *>,1,0.0005,0.0868,0.0868
+14,wcstombs,1,0.0005,0.0954,0.0954
+14,b2GetPointStates,1,0.0005,0.1692,0.1692
+14,ILT+14610(??A?$b2GrowableBufferUb2ParticleContactQEAAAEAUb2ParticleContactHZ),1,0.0005,0.0365,0.0365
+14,b2MulT,1,0.0005,0.047,0.047
+14,b2Max,1,0.0005,0.0519,0.0519
+15,NtUserMsgWaitForMultipleObjectsEx,201,0.1005,17.9326,0.0892169
+15,b2Vec2::b2Vec2,26,0.013,2.2477,0.08645
+15,b2ParticleSystem::AddContact,24,0.012,1.8876,0.07865
+15,b2InvSqrt,21,0.0105,1.5213,0.0724429
+15,b2ParticleSystem::SolveDamping,15,0.0075,1.0755,0.0717
+15,operator<,14,0.007,1.3575,0.0969643
+15,operator-,12,0.006,0.8845,0.0737083
+15,b2ParticleSystem::SolvePressure,9,0.0045,0.5794,0.0643778
+15,std::_Debug_lt_pred<std::less<void> &b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &0>,9,0.0045,0.7974,0.0886
+15,b2Dot,8,0.004,0.5632,0.0704
+15,std::less<void>::operator()<b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &>,7,0.0035,0.5886,0.0840857
+15,NtQueryInformationThread,7,0.0035,0.5792,0.0827429
+15,b2ParticleSystem::InsideBoundsEnumerator::GetNext,7,0.0035,0.5556,0.0793714
+15,b2ParticleSystem::FindContacts_Reference,6,0.003,0.4489,0.0748167
+15,b2ParticleSystem::ComputeWeight,6,0.003,0.4115,0.0685833
+15,b2ParticleSystem::UpdateProxies_Reference,5,0.0025,0.5008,0.10016
+15,operator*,5,0.0025,0.3863,0.07726
+15,_RTC_CheckStackVars,5,0.0025,0.2895,0.0579
+15,computeTag,5,0.0025,0.5726,0.11452
+15,b2GrowableBuffer<b2ParticleContact>::GetCount,4,0.002,0.2623,0.065575
+15,b2ParticleContact::GetIndexB,4,0.002,0.2502,0.06255
+15,b2PolygonShape::ComputeDistance,4,0.002,0.3569,0.089225
+15,b2Vec2::operator+=,4,0.002,0.2587,0.064675
+15,b2ParticleContact::GetWeight,4,0.002,0.232,0.058
+15,b2Min<float>,4,0.002,0.2402,0.06005
+15,b2Max<float>,4,0.002,0.2826,0.07065
+15,b2Vec2::operator-=,3,0.0015,0.1879,0.0626333
+15,b2ParticleContact::GetIndexA,3,0.0015,0.188,0.0626667
+15,std::_Partition_by_median_guess_unchecked<b2ParticleSystem::Proxy *std::less<void> >,3,0.0015,0.2738,0.0912667
+15,b2PolygonShape::RayCast,3,0.0015,0.1546,0.0515333
+15,ILT+14610(??A?$b2GrowableBufferUb2ParticleContactQEAAAEAUb2ParticleContactHZ),3,0.0015,0.2236,0.0745333
+15,b2ParticleContact::SetWeight,3,0.0015,0.1821,0.0607
+15,b2Min,3,0.0015,0.1512,0.0504
+15,b2ParticleContact::SetNormal,3,0.0015,0.2183,0.0727667
+15,b2ContactManager::Collide,2,0.001,0.11,0.055
+15,sqrtf,2,0.001,0.1879,0.09395
+15,b2ParticleSystem::SolveCollision,2,0.001,0.1035,0.05175
+15,b2MulT,2,0.001,0.1814,0.0907
+15,std::_Prev_iter<b2ParticleSystem::Proxy *>,2,0.001,0.1478,0.0739
+15,b2Max,2,0.001,0.1014,0.0507
+15,b2GetPointStates,2,0.001,0.1816,0.0908
+15,std::move<b2ParticleSystem::Proxy &>,2,0.001,0.0794,0.0397
+15,glClear,1,0.0005,0.091,0.091
+15,b2TestOverlap,1,0.0005,0.0905,0.0905
+15,std::lower_bound<b2ParticleSystem::Proxy const *unsigned intstd::less<void> >,1,0.0005,0.0348,0.0348
+15,ILT+12485(??0b2Vec2QEAAMMZ),1,0.0005,0.1136,0.1136
+15,b2ContactSolver::SolveVelocityConstraints,1,0.0005,0.0999,0.0999
+15,b2ParticleSystem::ComputeAABB,1,0.0005,0.0668,0.0668
+15,b2SeparationFunction::Initialize,1,0.0005,0.1017,0.1017
+15,computeRelativeTag,1,0.0005,0.0391,0.0391
+15,Test::PreSolve,1,0.0005,0.1301,0.1301
+15,b2CircleShape::ComputeAABB,1,0.0005,0.0697,0.0697
+15,std::_Adl_verify_range<b2ParticleSystem::Proxy *b2ParticleSystem::Proxy *>,1,0.0005,0.076,0.076
+15,std::forward<b2ParticleSystem::Proxy * &>,1,0.0005,0.0641,0.0641
+15,b2EPCollider::Collide,1,0.0005,0.0948,0.0948
+15,ILT+4560(?StepTestUEAAXPEAUSettingsZ),1,0.0005,0.0775,0.0775
+15,ILT+21685(?SetIndicesb2ParticleContactQEAAXHHZ),1,0.0005,0.0617,0.0617
+15,`b2ParticleSystem::SolveCollision'::`2'::SolveCollisionCallback::ReportFixtureAndParticle,1,0.0005,0.1001,0.1001
+15,SE_GetProcAddressForCaller,1,0.0005,0.0702,0.0702
+15,b2ParticleContact::SetFlags,1,0.0005,0.0753,0.0753
+15,`b2ParticleSystem::UpdateBodyContacts'::`2'::UpdateBodyContactsCallback::ReportFixtureAndParticle,1,0.0005,0.0776,0.0776
+15,b2Mul,1,0.0005,0.0361,0.0361
+15,std::_To_address<b2ParticleSystem::Proxy *>,1,0.0005,0.069,0.069
+15,b2ParticleSystem::Solve,1,0.0005,0.0946,0.0946
+15,b2Vec2::operator-,1,0.0005,0.1021,0.1021
+15,b2DynamicTree::GetUserData,1,0.0005,0.1129,0.1129
+15,b2ParticleContact::GetNormal,1,0.0005,0.0869,0.0869
+15,b2Body::ApplyLinearImpulse,1,0.0005,0.0568,0.0568
+15,ILT+16680(_RTC_CheckStackVars),1,0.0005,0.053,0.053
+15,b2MulT,1,0.0005,0.0698,0.0698
+15,ILT+3605(?b2DotYAMAEBUb2Vec2,1,0.0005,0.0329,0.0329
+15,b2EPCollider::ComputePolygonSeparation,1,0.0005,0.0898,0.0898
+15,b2WorldManifold::Initialize,1,0.0005,0.1292,0.1292
+15,ILT+12040(??MYA_NAEBUProxyb2ParticleSystem,1,0.0005,0.0753,0.0753
+15,ILT+20115(?Evaluateb2EdgeAndPolygonContactUEAAXPEAUb2ManifoldAEBUb2Transform,1,0.0005,0.2061,0.2061
+15,b2World::SetAllowSleeping,1,0.0005,0.0956,0.0956
+15,ILT+12460(??$?RAEAUProxyb2ParticleSystemAEAU01?$lessXstdQEBA_NAEAUProxyb2ParticleSystem,1,0.0005,0.088,0.088
+15,fgPlatformGlutGet,1,0.0005,0.102,0.102
+15,std::_Get_unwrapped<b2ParticleSystem::Proxy const * &>,1,0.0005,0.0909,0.0909
+15,b2GrowableBuffer<b2ParticleContact>::operator[],1,0.0005,0.0335,0.0335
+16,NtUserMsgWaitForMultipleObjectsEx,165,0.0825,15.9094,0.0964206
+16,b2Vec2::b2Vec2,24,0.012,1.728,0.072
+16,b2InvSqrt,22,0.011,1.9873,0.0903318
+16,b2ParticleSystem::AddContact,19,0.0095,1.3703,0.0721211
+16,operator<,19,0.0095,1.8046,0.0949789
+16,operator-,17,0.0085,1.2927,0.0760412
+16,NtQueryInformationThread,13,0.0065,0.9609,0.0739154
+16,b2ParticleContact::SetNormal,10,0.005,0.8108,0.08108
+16,b2ParticleSystem::SolveDamping,9,0.0045,0.6107,0.0678556
+16,std::_Debug_lt_pred<std::less<void> &b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &0>,9,0.0045,0.6519,0.0724333
+16,operator*,9,0.0045,0.5946,0.0660667
+16,NtUserGetMessage,8,0.004,0.7042,0.088025
+16,b2Dot,8,0.004,0.6872,0.0859
+16,std::less<void>::operator()<b2ParticleSystem::Proxy &b2ParticleSystem::Proxy &>,8,0.004,0.6118,0.076475
+16,b2ParticleContact::GetWeight,7,0.0035,0.5112,0.0730286
+16,`b2ParticleSystem::SolveCollision'::`2'::SolveCollisionCallback::ReportFixtureAndParticle,7,0.0035,0.614,0.0877143
+16,b2ParticleSystem::InsideBoundsEnumerator::GetNext,7,0.0035,0.5016,0.0716571
+16,NtUserGetKeyState,7,0.0035,0.6161,0.0880143
+16,b2ParticleContact::SetWeight,7,0.0035,0.4385,0.0626429
+16,_RTC_CheckStackVars,6,0.003,0.6521,0.108683
+16,b2ParticleSystem::SolvePressure,6,0.003,0.4133,0.0688833
+16,b2Vec2::operator+=,5,0.0025,0.2738,0.05476
+16,b2ParticleSystem::SolveCollision,5,0.0025,0.4182,0.08364
+16,b2Min<float>,4,0.002,0.2267,0.056675
+16,b2ParticleSystem::FindContacts_Reference,4,0.002,0.2498,0.06245
+16,`b2ParticleSystem::UpdateBodyContacts'::`2'::UpdateBodyContactsCallback::ReportFixtureAndParticle,4,0.002,0.2299,0.057475
+16,b2ParticleContact::GetIndexA,4,0.002,0.3085,0.077125
+16,b2ParticleSystem::ComputeWeight,4,0.002,0.2807,0.070175
+16,std::move<b2ParticleSystem::Proxy &>,4,0.002,0.4061,0.101525
+16,b2ParticleContact::GetNormal,4,0.002,0.3483,0.087075
+16,b2ParticleSystem::LimitVelocity,3,0.0015,0.2173,0.0724333
+16,std::_Prev_iter<b2ParticleSystem::Proxy *>,3,0.0015,0.2064,0.0688
+16,NtUserPeekMessage,3,0.0015,0.1921,0.0640333
+16,b2Max<float>,3,0.0015,0.1976,0.0658667
+16,b2Max,3,0.0015,0.2179,0.0726333
+16,b2ParticleContact::GetIndexB,3,0.0015,0.2726,0.0908667
+16,NtUserReleaseDC,2,0.001,0.1714,0.0857
+16,b2GrowableBuffer<b2ParticleContact>::operator[],2,0.001,0.0975,0.04875
+16,NtUserGetDC,2,0.001,0.1586,0.0793
+16,NtUserWindowFromDC,2,0.001,0.175,0.0875
+16,computeRelativeTag,2,0.001,0.1252,0.0626
+16,ILT+3915(?GetWeightb2ParticleContactQEBAMXZ),2,0.001,0.1615,0.08075
+16,operator+,2,0.001,0.2477,0.12385
+16,b2PolygonShape::RayCast,2,0.001,0.1365,0.06825
+16,computeTag,2,0.001,0.0959,0.04795
+16,b2GrowableBuffer<b2ParticleContact>::GetCount,2,0.001,0.1189,0.05945
+16,b2PolygonShape::ComputeDistance,2,0.001,0.1036,0.0518
+16,ZwWaitForSingleObject,2,0.001,0.1463,0.07315
+16,b2EdgeAndPolygonContact::Evaluate,2,0.001,0.1627,0.08135
+16,b2Vec2::Normalize,2,0.001,0.1695,0.08475
+16,ILT+16680(_RTC_CheckStackVars),1,0.0005,0.0325,0.0325
+16,b2Timer::GetTicks,1,0.0005,0.0931,0.0931
+16,b2ParticleSystem::ComputeAABB,1,0.0005,0.0685,0.0685
+16,sqrtf,1,0.0005,0.0543,0.0543
+16,b2ParticleSystem::UpdateProxies_Reference,1,0.0005,0.092,0.092
+16,b2GetPointStates,1,0.0005,0.1247,0.1247
+16,b2Body::GetInertia,1,0.0005,0.0731,0.0731
+16,b2Mul,1,0.0005,0.0857,0.0857
+16,NtGdiGetDCDword,1,0.0005,0.2076,0.2076
+16,`b2ParticleSystem::UpdateBodyContacts'::`2'::UpdateBodyContactsCallback::ShouldCollide,1,0.0005,0.0892,0.0892
+16,b2Vec2::operator-=,1,0.0005,0.071,0.071
+16,b2Vec2::LengthSquared,1,0.0005,0.0667,0.0667
+16,glutBitmapCharacter,1,0.0005,0.0545,0.0545
+16,std::_Partition_by_median_guess_unchecked<b2ParticleSystem::Proxy *std::less<void> >,1,0.0005,0.0907,0.0907
+16,NtGdiGetTransform,1,0.0005,0.0794,0.0794
+16,NtDelayExecution,1,0.0005,0.0681,0.0681
+16,ILT+12040(??MYA_NAEBUProxyb2ParticleSystem,1,0.0005,0.0702,0.0702
+16,b2Body::GetTransform,1,0.0005,0.0361,0.0361
+16,memcpy,1,0.0005,0.0691,0.0691
+16,b2ParticleSystem::UpdateProxies,1,0.0005,0.0728,0.0728
+16,ILT+10795(??Zb2Vec2QEAAXAEBU0Z),1,0.0005,0.0713,0.0713
+16,NtGdiGetRandomRgn,1,0.0005,0.0795,0.0795
+16,operator<,1,0.0005,0.1015,0.1015
+16,glutSetWindow,1,0.0005,0.0301,0.0301
+16,b2ParticleSystem::SolveLifetimes,1,0.0005,0.0895,0.0895
+16,b2Vec2::Length,1,0.0005,0.0407,0.0407
+16,b2GrowableStack<int256>::b2GrowableStack<int256>,1,0.0005,0.0439,0.0439
+16,b2ParticleContact::SetFlags,1,0.0005,0.0694,0.0694
